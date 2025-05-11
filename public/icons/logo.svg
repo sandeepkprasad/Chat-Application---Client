@@ -1,0 +1,4 @@
+<!-- chat-icon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="#3B82F6" viewBox="0 0 24 24">
+  <path d="M21 6h-18c-1.104 0-2 .896-2 2v14l4-4h16c1.104 0 2-.896 2-2v-8c0-1.104-.896-2-2-2zm-2 6h-14v-2h14v2z"/>
+</svg>
