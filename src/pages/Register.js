@@ -17,7 +17,7 @@ const Register = () => {
   return (
     <UIWrapper>
       <div className="w-full h-full flex justify-between items-start">
-        <div className="w-1/3 h-full bg-primaryColor/5 flex flex-col justify-center items-center">
+        <div className="w-1/3 h-full bg-primaryColor/5 hidden lg:flex flex-col justify-center items-center">
           <span className="font-inter font-semibold text-[2vw] text-textColor">
             Welcome to
           </span>
@@ -25,9 +25,9 @@ const Register = () => {
             Chat Application
           </span>
         </div>
-        <div className="w-2/3 h-full bg-white flex justify-center items-center border-s border-inputBorder">
-          <div className="w-1/2 h-fit flex flex-col space-y-[3%]">
-            <span className="font-inter font-semibold text-[1.5vw] text-textColor">
+        <div className="w-full lg:w-2/3 h-full bg-white flex justify-center items-center border-s border-inputBorder">
+          <div className="w-full lg:w-1/2 h-fit flex flex-col space-y-[3%] px-[5%] lg:px-0">
+            <span className="font-inter font-semibold text-xl text-textColor">
               Register
             </span>
             <input
