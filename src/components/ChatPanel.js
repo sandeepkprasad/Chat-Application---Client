@@ -75,7 +75,7 @@ const ChatPanel = () => {
         emitOnlineStatus({ userId: userData._id, status: "offline" });
       }
     };
-  }, [userData]);
+  }, [userData, emitOnlineStatus]);
 
   return (
     <div className="w-full h-full flex flex-col justify-between items-center">

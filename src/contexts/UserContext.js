@@ -35,7 +35,7 @@ const UserProvider = ({ children }) => {
       setNotificationText(error.response?.data?.message || "Search failed");
       setSearchResults([]);
     }
-  }, [searchQuery]);
+  }, [searchQuery, setNotificationText]);
 
   return (
     <UserContext.Provider

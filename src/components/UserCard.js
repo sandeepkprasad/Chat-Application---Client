@@ -19,7 +19,7 @@ const UserCard = ({ data }) => {
         emitOnlineStatus({ userId: userData._id, status: "offline" });
       }
     };
-  }, [userData]);
+  }, [userData, emitOnlineStatus]);
 
   return (
     <div
